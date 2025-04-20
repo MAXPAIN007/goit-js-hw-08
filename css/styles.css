@@ -1,0 +1,228 @@
+/* Обнуляем margin и padding у всех элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стили у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Убираем подчеркивания и цвет ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Наследуем шрифты для форм */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Убираем границы у кнопок */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Убираем обводку при клике в Firefox */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* Убираем стили у изображений */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Обнуляем стили HTML и BODY */
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  padding: 24px;
+}
+.js-container-gallery {
+  display: flex;
+  justify-content: center;
+}
+.ls-gallary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+}
+
+/* Обнуляем margin и padding у всех элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стили у списков */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Убираем подчеркивания и цвет ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Наследуем шрифты для форм */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Убираем границы у кнопок */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Убираем обводку при клике в Firefox */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* Убираем стили у изображений */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Обнуляем стили HTML и BODY */
+html,
+body {
+  height: 100%;
+  line-height: 1.5;
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  padding: 24px;
+}
+.js-gallary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.js-gallery-item {
+  width: 360px;
+  height: 200px;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+
+.js-gallery-item:hover {
+  transform: scale(1.044);
+  z-index: 1;
+}
+
+.js-gallery-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.js-gallery-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.basicLightbox__placeholder {
+  background: none;
+}
+
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
+.js-btn-close {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  color: white;
+  background: transparent;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.js-btn-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.basicLightbox__placeholder {
+  background: none;
+}
+
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
+.js-btn-close {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  color: white;
+  background: transparent;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.js-btn-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
