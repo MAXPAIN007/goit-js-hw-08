@@ -139,11 +139,12 @@ body {
   line-height: 1.5;
   padding: 24px;
 }
-.js-gallary {
+.js-gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  width: 1128px;
 }
 
 .js-gallery-item {
