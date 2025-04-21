@@ -93,7 +93,7 @@ function handleClickOnImg(event) {
   const instance = basicLightbox.create(
     `
     <div class="modal">
-        <img src="${originalImg}" width="1440" height="696">
+        <img src="${originalImg}" width="1112" height="640">
         <a class="js-btn-close">X</a>
     </div>
   `,

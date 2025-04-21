@@ -134,8 +134,6 @@ body {
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #fafafa;
-  color: #212121;
   line-height: 1.5;
   padding: 24px;
 }
@@ -170,38 +168,6 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-}
-
-.basicLightbox__placeholder {
-  background: none;
-}
-
-.basicLightbox {
-  background: rgba(46, 47, 66, 0.8);
-}
-.js-btn-close {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid currentColor;
-  color: white;
-  background: transparent;
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.js-btn-close:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.basicLightbox__placeholder {
-  background: none;
 }
 
 .basicLightbox {
